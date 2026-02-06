@@ -1,11 +1,9 @@
 # Gnomix Pretrained Models from LARGE-PD
 Pretrained models from Gnomix used in the LARGE-PD paper. 
 
-⚠️ <span style="color:red; font-weight:bold;">
-We recommend using pre-trained models only when the dataset has 100% SNP coverage relative to the pre-trained reference panel. 
-</span>
+⚠️  **Important**
 
-Tests performed within GP2 indicate that even small differences in SNP coverage can have a substantial impact on the results, leading to instability in the model outputs.
+We recommend using pre-trained models only when the dataset has 100% SNP coverage relative to the pre-trained reference panel. Tests performed within GP2 indicate that even small differences in SNP coverage can have a substantial impact on the results, leading to instability in the model outputs.
 
 ## LARGE-PD Phase 2
 Pretrained model panel and list of variants for the LARGE-PD Phase 2 data. This panel is composed of samples from the 1000 Genomes 30x dataset, using the references from Shriner et al. 2023 (PMID: PMC10507155, doi:10.1016/j.xhgg.2023.100235), and non-admixed Native American samples from LARGE-PD Phase 2, genotyped using the Illumina NeuroBooster array.
